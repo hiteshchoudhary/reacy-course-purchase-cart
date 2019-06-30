@@ -51,7 +51,7 @@ class Course extends Component {
   render(){
     return(
       <div>
-        <p clasName={this.state.active ? 'active' : ''} onClick={this.clicker}>{this.props.name} <b>{this.props.price}</b></p>
+        <p className={this.state.active ? 'active' : ''} onClick={this.clicker}>{this.props.name} <b>{this.props.price}</b></p>
       </div>
     );
   }
